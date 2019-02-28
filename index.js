@@ -45,7 +45,7 @@ class Passenger {
     return trips.map(
       function(trip) {
         return trip.driver()
-      }.bind(this)
+      }
     );
   }
 }
